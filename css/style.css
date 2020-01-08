@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+}
+
+@media (max-width:768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.container {
+    max-width: 90%;
+}
+
+.header__container {
+    display: flex;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+@media (max-width:768px) {
+    .header__container {
+        flex-direction: column;
+        float: left;
+    }
+}
+
+.header__container a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__container a:hover {
+    color: cornflowerblue;
+}
+
+.header__phone {
+    margin-left: 25px;
+}
+
+.menu__logo {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 100px;
+    margin-left: 15px;
+    color: darkred;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+@media (max-width:768px) {
+    .menu__logo {
+        font-size: 50px;
+        float: left;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 15px;
+    justify-content: space-evenly;
+}
+
+.menu ul li {
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    color: cornflowerblue;
+}
+
+.Info {
+    max-width: inherit;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.Products {
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.garden {
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.Contacts {
+    padding-bottom: 15px;
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contacts__container {
+    display: flex;
+}
+
+.contacts__phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts__phone a:hover {
+    color: cornflowerblue;
+}
+
+.other-contacts {
+    float: right;
+}
+
+.footer__inform p {
+    font-size: 15px;
+    color: lightgray;
+    text-align: left;
+}
+
+.footer__products p {
+    font-size: 15px;
+    color: lightgray;
+    text-align: left;
+}
+
+.footer__contacts p {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.footer__contacts ul {
+    list-style-type: none;
+}
+
+.footer__contacts ul li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.footer__contacts ul li a:hover {
+    color: cornflowerblue;
+}
